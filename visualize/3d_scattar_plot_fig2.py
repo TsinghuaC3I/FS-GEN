@@ -3,7 +3,8 @@ from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
 from data import *
-
+import sys
+sys.path.append('../')
 
 def plot_3d_scatter(ax, data, color, label):
     x_str = [item[0] for item in data if isinstance(item[2], float)]

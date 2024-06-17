@@ -3,7 +3,8 @@ from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 from scipy.spatial import ConvexHull, Delaunay
 from data import *
-
+import sys
+sys.path.append('../')
 
 
 def plot_convex_hull(ax, data, color, label):

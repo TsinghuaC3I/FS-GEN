@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 from sklearn.neighbors import KernelDensity
-
+import sys
+sys.path.append('../')
 
 def read_json_files_in_outputs(dir_path):
     files_path = []

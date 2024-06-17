@@ -10,7 +10,8 @@ from imblearn.over_sampling import RandomOverSampler
 from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score, davies_bouldin_score, adjusted_rand_score
 from scipy.spatial.distance import euclidean
-
+import sys
+sys.path.append('../')
 
 def pca_to_tsne(x, y, n_components, ratio_samples=0.01):
     """

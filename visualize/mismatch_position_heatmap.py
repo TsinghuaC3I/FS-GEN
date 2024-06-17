@@ -5,7 +5,8 @@ import numpy as np
 import os
 import json
 import matplotlib.cm as cm
-
+import sys
+sys.path.append('../')
 
 coolwarm = cm.get_cmap('coolwarm')
 

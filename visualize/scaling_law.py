@@ -3,7 +3,8 @@ from scipy.optimize import curve_fit
 import numpy as np
 import sys
 from data import *
-
+import sys
+sys.path.append('../')
 
 # Data extraction function
 def extract_data(data):
