@@ -28,7 +28,7 @@ If you want to perform tests with different co-methods and routers, use the foll
 chmod +x logits_gen.sh
 ./logits_gen.sh
 ```
-You should set router and co-methods first, then run the test script. You will get the results in ```outputs_logits```.
+You should set router and co-methods first, then run the test script. Results will be saved in ```outputs_logits```.
 
 
 
