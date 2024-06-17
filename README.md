@@ -21,7 +21,9 @@ If you want to perform tests with different co-methods and routers, use the foll
 chmod +x logits_gen.sh
 ./logits_gen.sh
 ```
-You can run differently by modifying the router and method in your shell scripts.
+You can run differently by modifying the router and method in your shell scripts. You will get the results in ```outputs_logits```.
+
+
 
 ### Visualize
 You can draw the test image directly through running the code in the folder ```visualize```
