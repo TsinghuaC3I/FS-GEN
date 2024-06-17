@@ -1,0 +1,53 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "mmlu-stem",
+  "dataset_size": 1000011,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/TIGER-Lab/MMLU-STEM@299b1a95bf25a953b7af2f71dacb39fa7a5299c5/stem.json": {
+      "num_bytes": 1291805,
+      "checksum": null
+    }
+  },
+  "download_size": 1291805,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "subject": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choices": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "answer": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2291816,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1000011,
+      "num_examples": 3134,
+      "dataset_name": "mmlu-stem"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
