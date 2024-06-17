@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="./">
-        <img src="./data/intro.png" width="79%"/>
+        <img src="./data/intro.png" width="50%"/>
     </a>
 </div>
 
@@ -33,7 +33,7 @@ You can run differently by modifying the router and method in your shell scripts
 
 
 ### Visualize
-You can draw the test image directly through running the code in the folder ```visualize```
+You can draw test images directly through running the code in the folder ```visualize```
 ```shell
 python visualize_codes.py
 ```
