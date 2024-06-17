@@ -14,7 +14,7 @@ datasets=("gsm8k" "mmlu" "mbpp" "mtbench")
 sampling=500
 
 # Base paths for models
-base_path="/root/pubmodels/transformers/Qwen/Qwen1.5"
+base_path="Your serial models path"
 
 # Function to compare model sizes without using bc
 compare_models() {

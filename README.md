@@ -9,4 +9,23 @@ conda create --name <env> --file ./requirements.txt
 
 ## Usage
 
-Comming soon...
+### Dump and evaluate
+If you want to individually test a combination of models under a particular dataset, use the following command
+```shell
+python logits_gen.py --router router --method method --sampling sampling --dataset dataset --large-model-path large_model_path --small-model-path small_model_path --small-ft-model-path None
+```
+
+If you want to perform tests with different co-methods and routers, use the following command
+
+```shell
+chmod +x logits_gen.sh
+./logits_gen.sh
+```
+You can test differently by modifying the router and method in your shell scripts.
+
+### Visualize
+You can draw the test image directly ```visualize``` the code in the folder
+```shell
+python visualize_codes.py
+```
+Note that you should create a folder ```outputs_logits``` first.
