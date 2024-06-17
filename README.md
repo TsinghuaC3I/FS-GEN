@@ -37,4 +37,4 @@ You can draw test images directly through running the code in the folder ```visu
 ```shell
 python visualize_codes.py
 ```
-Note that you should create a folder ```outputs_logits``` first.
+Note that you should run dump and evaluate first to ensure the folder ```outputs_logits``` is not empty.
