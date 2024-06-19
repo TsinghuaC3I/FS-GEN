@@ -39,3 +39,14 @@ You can draw test images directly through running the code in the folder ```visu
 python visualize_codes.py
 ```
 Note that you should run dump and evaluate first to ensure the folder ```outputs_logits``` is not empty.
+
+
+### Citation
+```
+@misc{zhang2024fast,
+      title={Fast and Slow Generating: An Empirical Study on Large and Small Language Models Collaborative Decoding}, 
+      author={Kaiyan Zhang and Jianyu Wang and Ning Ding and Biqing Qi and Ermo Hua and Xingtai Lv and Bowen Zhou},
+      year={2024},
+      eprint={2406.12295}
+}
+```
