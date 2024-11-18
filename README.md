@@ -12,7 +12,7 @@ Large Language Models (LLMs) demonstrate impressive performance in diverse appli
 
 ## Setup
 ```shell
-conda create --name <env> --file ./requirements.txt
+conda create --name fsgen --file ./requirements.txt
 ```
 
 ## Usage
